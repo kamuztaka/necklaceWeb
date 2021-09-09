@@ -7,6 +7,19 @@ body {
   margin: 0;
   font-family: "Nunito", sans-serif;
   height: auto;
+
+  /* animation */
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 /* hide desktop */
@@ -282,12 +295,26 @@ body {
   place-items: center;
 }
 .main .modal .modal-content {
+  /* layout */
   grid-row: 2/3;
   grid-column: 2/3;
 
+  /* design */
   height: 500px;
   width: 500px;
+
+  /* animation */
+  animation: zoom 0.6s;
 }
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 .main .modal .modal-content .cross,
 .main .modal .modal-content .stBenedict,
 .main .modal .modal-content .jesusNecklace,
