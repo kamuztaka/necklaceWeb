@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRODUCTS</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/product.css" />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Menu Container -->
+    <div class="menu-main">
+      <!-- Icon -->
+      <div class="icon-container hide-desktop">
+        <div class="fa fa-bars"></div>
+      </div>
+      <!-- Menus -->
+      <ul class="menu-container show" id="menuContainer">
+        <a href="index.html"><li>Home</li></a>
+        <a href="product.html"><li>Products</li></a>
+        <a href="about.html"><li>About</li></a>
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+      <!-- Modal -->
+      <div class="modal" id="modal1">
+        <span class="close" id="close">&times;</span>
+        <div class="modal-content">
+          <!-- Inside a modal -->
+          <img src="img/1.jpg" alt="Cross Necklace" class="cross" />
+        </div>
+      </div>
+
+      <div class="modal" id="modal2">
+        <span class="close" id="close">&times;</span>
+        <div class="modal-content">
+          <img
+            src="img/2.jpg"
+            alt="Saint Benedict Necklace"
+            class="stBenedict"
+          />
+        </div>
+      </div>
+
+      <div class="modal" id="modal3">
+        <span class="close" id="close">&times;</span>
+        <div class="modal-content">
+          <img src="img/3.jpg" alt="Jesus Face" class="jesusNecklace" />
+        </div>
+      </div>
+
+      <div class="modal" id="modal4">
+        <span class="close" id="close">&times;</span>
+        <div class="modal-content">
+          <img src="img/4.jpg" alt="Padre Pio Face" class="pioNecklace" />
+        </div>
+      </div>
+
+      <div class="modal" id="modal3">
+        <span class="close" id="close">&times;</span>
+        <div class="modal-content">
+          <img src="img/3.jpg" alt="Padre Pio Face" class="pioNecklace" />
+        </div>
+      </div>
+      <!-- End of Modal -->
+
+      <!-- Box Container -->
+      <div class="box box-container1">
+        <div class="image-container">
+          <img
+            src="img/1.jpg"
+            alt="Cross Necklace"
+            class="cross image"
+            data-modal="modal1"
+          />
+        </div>
+        <div class="name-container">
+          <p class="name">Cross Necklace</p>
+        </div>
+        <div class="price-container">
+          <p class="price">₱499</p>
+        </div>
+      </div>
+
+      <div class="box box-container2">
+        <div class="image-container">
+          <img
+            src="img/2.jpg"
+            alt="Saint Benedict Necklace"
+            class="stBenedict image"
+            data-modal="modal2"
+          />
+        </div>
+        <div class="name-container">
+          <p class="name">Saint Benedict Necklace</p>
+        </div>
+        <div class="price-container">
+          <p class="price">₱499</p>
+        </div>
+      </div>
+
+      <div class="box box-container3">
+        <div class="image-container">
+          <img
+            src="img/3.jpg"
+            alt="Jesus Necklace"
+            class="jesusNecklace image"
+            data-modal="modal3"
+          />
+        </div>
+        <div class="name-container">
+          <p class="name">Jesus Face</p>
+        </div>
+        <div class="price-container">
+          <p class="price">₱499</p>
+        </div>
+      </div>
+
+      <div class="box box-container4">
+        <div class="image-container">
+          <img
+            src="img/4.jpg"
+            alt="Padre Pio"
+            class="padre-pio image"
+            data-modal="modal4"
+          />
+        </div>
+        <div class="name-container">
+          <p class="name">Padre Pio</p>
+        </div>
+        <div class="price-container">
+          <p class="price">₱499</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <!-- Follow -->
+      <div class="follow-container">
+        <p class="follow-us">FOLLOW US:</p>
+        <i class="fa fa-facebook-square"></i>
+      </div>
+      <!-- Email -->
+      <div class="email-container">
+        <p class="email">EMAIL US:</p>
+        <p class="email1">loremipsum@gmail.com</p>
+      </div>
+      <!-- Call -->
+      <div class="call-container">
+        <p class="call-us">CALL US:</p>
+        <p class="num">09000000000</p>
+      </div>
+      <!-- Footer1 -->
+      <div class="footer1"></div>
+    </div>
+
+    <!-- Script -->
+    <script src="js/sidebar.js"></script>
+    <script src="js/modal.js"></script>
+  </body>
+</html>
