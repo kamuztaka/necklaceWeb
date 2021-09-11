@@ -278,7 +278,7 @@ body {
 }
 
 /* Responsive for mobile devices */
-@media (max-width: 480px) {
+@media (max-width: 480px) and (min-width: 133px) {
   .menu-main {
     position: fixed;
     width: 100vw;
