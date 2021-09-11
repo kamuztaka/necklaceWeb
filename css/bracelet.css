@@ -328,7 +328,7 @@ body {
     height: 100vh;
     /* layout */
     grid-template-columns: 30px repeat(2, 1fr) 30px;
-    grid-template-rows: 110px 1fr 110px;
+    grid-template-rows: 110px 1fr 200px;
   }
 
   .main .box-container1 {
@@ -410,6 +410,7 @@ body {
     cursor: pointer;
   }
 }
+
 /* Responsive for tablet devices */
 @media (max-width: 767px) and (min-width: 481px) {
   html,
@@ -471,7 +472,7 @@ body {
 
     /* layout */
     grid-template-columns: 30px repeat(2, 1fr) 30px;
-    grid-template-rows: 110px 1fr 110px;
+    grid-template-rows: 110px 1fr 160px;
   }
 
   .main .box-container1 {
