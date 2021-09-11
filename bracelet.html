@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BRACELET</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/bracelet.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Menu -->
+    <div class="menu-main">
+      <div class="icon-container hide-desktop">
+        <div class="fa fa-bars"></div>
+      </div>
+      <ul class="menu-container show" id="menuContainer">
+        <a href="index.html"><li>Home</li></a>
+        <a href="product.html"><li>Necklace</li></a>
+        <a href="bracelet.html"><li>Bracelet</li></a>
+        <a href="about.html"><li>About</li></a>
+      </ul>
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+      <!-- modal -->
+      <div class="modal" id="modal1">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+          <img src="img/padre-pio.jpg" alt="Padre Pio" class="padre-pio" />
+        </div>
+      </div>
+
+      <div class="modal" id="modal2">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+          <img src="img/padre-pioo.jpg" alt="Padre Pio" class="padre-pio" />
+        </div>
+      </div>
+      <!-- end modal -->
+
+      <div class="box box-container1">
+        <div class="image-container">
+          <img
+            src="img/padre-pio.jpg"
+            alt="Padre Pio"
+            class="padre-pio image"
+            data-modal="modal1"
+          />
+        </div>
+        <div class="name-container">
+          <p>Padre Pio Bracelet</p>
+        </div>
+        <div class="price-container">
+          <p>₱499</p>
+        </div>
+      </div>
+
+      <div class="box box-container2">
+        <div class="image-container">
+          <img
+            src="img/padre-pioo.jpg"
+            alt="Padre Pio"
+            class="padre-pioo image"
+            data-modal="modal2"
+          />
+        </div>
+        <div class="name-container">
+          <p>Padre Pio Bracelet</p>
+        </div>
+        <div class="price-container">
+          <p>₱499</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="js/sidebar.js"></script>
+    <script src="js/modal.js"></script>
+  </body>
+</html>
