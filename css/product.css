@@ -620,10 +620,6 @@ body {
     justify-items: center;
   }
 
-  .menu-main .menu-container .home {
-    grid-row: 1/2;
-  }
-
   .menu-main .menu-container.show {
     display: none;
   }
