@@ -170,12 +170,14 @@ body {
   color: black;
   font-weight: bold;
   font-size: 18px;
+  text-align: center;
 }
 .main .box-container1 .price-container {
   grid-row: 3/4;
   color: black;
   font-weight: bold;
   font-size: 18px;
+  text-align: center;
 }
 
 /* box2 */
@@ -344,8 +346,6 @@ body {
 @media (max-width: 500px) and (min-width: 133px) {
   html, body {
     height: auto;
-    width: 100%;
-    overflow-x: hidden;
   }
 
   .menu-main {
@@ -385,21 +385,26 @@ body {
   /* main */
   .main {
     grid-template-columns: 30px 1fr 1fr 30px;
-    grid-template-rows: 110px 1fr;
+    grid-template-rows: 110px 1fr 200px 1fr;
     column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .main .box-container1{
+    grid-row: 2/3;
+    grid-column: 2/3;
     justify-items: center;
   }
 
-  .main .box {
+  .main .box-container2 {
     grid-row: 2/3;
-    height: 300px;
-    width: 200px;
+    grid-column: 3/4;
   }
 
   .main .box-container1 .image-container .padre-pio,
   .main .box-container2 .image-container .padre-pioo {
-    height: 170px;
-    width: 170px;
+   height: 200%;
+   width: 100%;
   }
 
   /* modal */
@@ -423,10 +428,5 @@ body {
 
   .main .modal .close {
     grid-row: 2/3;
-  }
-
-  .footer-container {
-    position: relative;
-    bottom: 200px;
   }
 }
