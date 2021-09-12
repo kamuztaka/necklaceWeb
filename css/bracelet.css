@@ -279,7 +279,7 @@ body {
 
 /* responsive for tablet devices */
 
-@media (max-width: 768px) and (min-width: 481px) {
+@media (max-width: 768px) and (min-width: 501px) {
   /* menus */
   .menu-main {
     /* layout */
@@ -341,7 +341,7 @@ body {
 }
 
 /* responsive for mobile */
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   html, body {
     height: auto;
     overflow-x: hidden;
@@ -385,8 +385,7 @@ body {
   .main {
     grid-template-columns: 30px 1fr 1fr 30px;
     grid-template-rows: 110px 1fr;
-    column-gap: 0;
-    row-gap: 0;
+    column-gap: 10px;
     justify-items: center;
   }
 
