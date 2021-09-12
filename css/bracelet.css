@@ -344,6 +344,7 @@ body {
 @media (max-width: 480px) {
   html, body {
     height: auto;
+    overflow-x: hidden;
   }
 
   .menu-main {
