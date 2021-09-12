@@ -126,8 +126,7 @@ body {
   }
 }
 
-.main .modal .modal-content .padre-pio,
-.main .modal .modal-content .padre-pioo {
+.main .modal .modal-content img {
   height: auto;
   width: 100%;
 }
@@ -160,6 +159,8 @@ body {
 }
 .main .box-container1 .image-container {
   grid-row: 1/2;
+  height: auto;
+  width: 100%;
 }
 .main .box-container1 .image-container .padre-pio {
   height: auto;
@@ -198,6 +199,8 @@ body {
 
 .main .box-container2 .image-container {
   grid-row: 1/2;
+  height: auto;
+  width: 100%;
 }
 .main .box-container2 .image-container .padre-pioo {
   height: auto;
