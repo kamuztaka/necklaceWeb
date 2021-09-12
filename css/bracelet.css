@@ -319,32 +319,60 @@ body {
   }
 
   /* content */
-  .main .box {
-    height: 350px;
-    width: 250px;
+  .main {
+    grid-template-columns: 30px 1fr 1fr 30px;
+    grid-template-rows: 110px 1fr 200px 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .main .box-container1 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    justify-items: center;
+  }
+
+  .main .box-container2 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+  }
+
+  .main .box-container1 .image-container .padre-pio,
+  .main .box-container2 .image-container .padre-pioo {
+    height: auto;
+    width: 100%;
   }
 
   /* modal */
   .main .modal {
     grid-template-columns: 50px 1fr 50px 30px;
+    grid-template-rows: 50px 50px 1fr 1fr;
     place-items: center;
   }
 
   .main .modal .modal-content {
-    height: 350px;
-    width: 350px;
+    grid-row: 3/4;
+    grid-column: 2/3;
+    height: auto;
+    width: 100%;
   }
 
   .main .modal .modal-content .padre-pio,
   .main .modal .modal-content .padre-pioo {
-    height: 350px;
-    width: 350px;
+    height: auto;
+    width: 100%;
+  }
+
+  .main .modal .close {
+    grid-row: 2/3;
+    grid-column: 3/4;
   }
 }
 
 /* responsive for mobile */
 @media (max-width: 500px) and (min-width: 133px) {
-  html, body {
+  html,
+  body {
     height: auto;
   }
 
@@ -390,7 +418,7 @@ body {
     row-gap: 10px;
   }
 
-  .main .box-container1{
+  .main .box-container1 {
     grid-row: 2/3;
     grid-column: 2/3;
     justify-items: center;
@@ -403,8 +431,8 @@ body {
 
   .main .box-container1 .image-container .padre-pio,
   .main .box-container2 .image-container .padre-pioo {
-   height: 200%;
-   width: 100%;
+    height: auto;
+    width: 100%;
   }
 
   /* modal */
