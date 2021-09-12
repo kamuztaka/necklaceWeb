@@ -416,14 +416,14 @@ body {
 
   .main .modal .modal-content {
     grid-row: 3/4;
-    height: 350px;
-    width: 350px;
+    height: auto;
+    width: 100%;
   }
 
   .main .modal .modal-content .padre-pio,
   .main .modal .modal-content .padre-pioo {
-    height: 350px;
-    width: 350px;
+    height: auto;
+    width: 100%;
   }
 
   .main .modal .close {
