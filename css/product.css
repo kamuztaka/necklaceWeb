@@ -348,8 +348,8 @@ body {
 .main .modal .modal-content .stBenedict,
 .main .modal .modal-content .jesusNecklace,
 .main .modal .modal-content .pioNecklace {
-  height: 500px;
-  width: 500px;
+  height: auto;
+  width: 100%;
 }
 .main .modal .close {
   grid-row: 1/2;
