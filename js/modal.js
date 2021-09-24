@@ -1,18 +1,10 @@
-const ImgModal = document.querySelectorAll(".image");
+const ImgModal = document.querySelectorAll(".openModal");
 
 ImgModal.forEach(function (btn) {
   btn.onclick = function () {
     const modal = btn.getAttribute("data-modal");
 
-    document.getElementById(modal).style.display = "grid";
-  };
-});
-
-const closeBtn = document.querySelectorAll(".close");
-
-closeBtn.forEach(function (btn) {
-  btn.onclick = function () {
-    const modal = (btn.closest(".modal").style.display = "none");
+    document.getElementById(modal).style.display = "flex";
   };
 });
 
